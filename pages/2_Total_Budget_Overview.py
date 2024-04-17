@@ -47,8 +47,8 @@ def app():
     fig2.update_layout(yaxis_title='Budget (US$, Millions)')
     st.plotly_chart(fig2, use_container_width=True)
 
-
-    st.image("WorldBankggplot.png")
+    # ggplot embedding
+    st.image("WorldBankplot.png")
 
 
 
